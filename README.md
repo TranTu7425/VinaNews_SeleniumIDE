@@ -35,7 +35,7 @@ Bài báo cáo này trình bày quá trình thực hành xây dựng các kịch
     6. `click` - Click vào nút "ĐĂNG NHẬP NGAY" (`css=.hover\3A bg-red-600`).
 *   **Kết quả kỳ vọng (Expected Result):** Đăng nhập thành công, hiển thị lời chào `"Chào, Trần Anh Tú"` ở góc trên bên phải màn hình.
 *   **Kết quả thực tế (Actual Result):** **ĐẠT (PASS)** - Đăng nhập thành công, tài khoản hiển thị chính xác.
-
+![Đăng ký tài khoản](./login.png)
 ---
 
 ### Kịch bản 2: Thích bài viết (like_post)
@@ -47,7 +47,7 @@ Bài báo cáo này trình bày quá trình thực hành xây dựng các kịch
     3. `click` - Cuộn xuống cuối bài viết và click nút Thích (Trái tim) (`css=.h-7:nth-child(1)`).
 *   **Kết quả kỳ vọng (Expected Result):** Số lượt thích tăng lên 1 đơn vị, nút Thích chuyển sang trạng thái đã thích (màu đỏ).
 *   **Kết quả thực tế (Actual Result):** **ĐẠT (PASS)** - Hệ thống ghi nhận lượt thích thành công.
-
+![Đăng ký tài khoản](./likepost.png)
 ---
 
 ### Kịch bản 3: Bỏ thích bài viết (unlike_post)
@@ -58,7 +58,7 @@ Bài báo cáo này trình bày quá trình thực hành xây dựng các kịch
     2. `click` - Click nút Thích lần nữa để thực hiện bỏ thích (`css=.hover\3Atext-red-700`).
 *   **Kết quả kỳ vọng (Expected Result):** Hệ thống hiển thị thông báo toast `"Đã bỏ thích"` ở đầu trang, số lượt thích giảm đi 1 đơn vị.
 *   **Kết quả thực tế (Actual Result):** **ĐẠT (PASS)** - Bỏ thích thành công, hiển thị thông báo phản hồi chính xác.
-
+![Đăng ký tài khoản](./unlikepost.png)
 ---
 
 ## 4. Hướng dẫn chạy Test Suite bằng Selenium IDE

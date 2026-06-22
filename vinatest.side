@@ -1,0 +1,780 @@
+{
+  "id": "13094191-e6eb-4643-a2a9-c99d52a54167",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "d027cc41-563e-4bb6-896d-52f8bf6b9bc8",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "bd0ee031-ea9d-45aa-bf2a-653ea98e26ba"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "bd0ee031-ea9d-45aa-bf2a-653ea98e26ba",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "269f40e5-5bc3-4fea-a564-c17e3f0cb649",
+          "command": "open",
+          "target": "http://localhost:3000/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=base-ui-_R_v96itmlb_",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "253bf432-182e-4277-91a2-125b1b421f67",
+          "targets": [
+            [
+              "id=base-ui-_R_v96itmlb_",
+              "id"
+            ],
+            [
+              "css=#base-ui-_R_v96itmlb_",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='base-ui-_R_v96itmlb_'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'Đăng ký')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=name",
+          "value": "tran anh tu",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a11fd70b-e0c2-4913-ac5f-ca9bab2c40a7",
+          "targets": [
+            [
+              "name=name",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(1) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d6482a33-6484-4126-8cef-5aa07447bda4",
+          "targets": [
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=email",
+          "value": "tuanhtran@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dcf031f6-90b3-4634-97fd-1f99f8680a7e",
+          "targets": [
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fca3f81e-7ede-46fa-ab36-63b8470f0e49",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(3) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "tuanhtran",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2f33ae00-99f1-4a31-961e-bb06de782d21",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(3) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=confirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cea00db9-4a31-45c3-8dee-bfba4302aee4",
+          "targets": [
+            [
+              "name=confirmPassword",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(4) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=confirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "072f22cc-2d75-4060-bfe7-918d75d250bf",
+          "targets": [
+            [
+              "name=confirmPassword",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(4) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=confirmPassword",
+          "value": "trananhtu",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1790ef7e-0efe-403b-925f-d44050cbec05",
+          "targets": [
+            [
+              "name=confirmPassword",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(4) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.hover\\3A bg-red-600",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a594f8b5-09d9-448a-a6f2-4bcf67819b4f",
+          "targets": [
+            [
+              "css=.hover\\3A bg-red-600",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Đăng ký tài khoản'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_796itmlb_']/div/div/div/form/button)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20a38ce3-14d5-48c6-8196-12b2e5ed3d46",
+      "name": "dangnhap",
+      "commands": [
+        {
+          "id": "a112e9c4-8bfc-498b-accd-93e405d38a88",
+          "command": "open",
+          "target": "http://localhost:3000/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=base-ui-_R_r96itmlb_",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c8ec6c91-a347-4f40-96a0-f815af5224c0",
+          "targets": [
+            [
+              "id=base-ui-_R_r96itmlb_",
+              "id"
+            ],
+            [
+              "css=[data-base-ui-click-trigger]",
+              "css:data-attr"
+            ],
+            [
+              "css=#base-ui-_R_r96itmlb_",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='base-ui-_R_r96itmlb_'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'Đăng nhập')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5cf035bb-eac6-4b64-acaa-5c9b86393374",
+          "targets": [
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(1) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=email",
+          "value": "admin@vinanews.vn",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ed3538ba-209d-4d64-831f-79197fad8026",
+          "targets": [
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(1) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b61d0e0f-35dd-41fa-81a3-00132fc07108",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "admin@vinanews.vn",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1ff7534e-c274-4444-b6e7-ecbe9a56d550",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.hover\\3A bg-red-600",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3e2cbba8-f6c9-43b4-b68b-349614564af4",
+          "targets": [
+            [
+              "css=.hover\\3A bg-red-600",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Đăng nhập ngay'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/button)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=[data-open]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "77215eb8-a84a-4949-9b92-e2a6421a51c9",
+          "targets": [
+            [
+              "css=[data-open]",
+              "css:data-attr"
+            ],
+            [
+              "css=.isolate",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='_r_9_']/div[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ece63d1f-85b2-4704-b80c-cb05127c6aa9",
+      "name": "dangnhap_true",
+      "commands": [
+        {
+          "id": "a8e4a7e4-5751-4f35-ada5-fce99de21c46",
+          "command": "open",
+          "target": "http://localhost:3000/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=base-ui-_R_r96itmlb_",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fb758d53-1500-451c-8ec3-a60b0d6cccfe",
+          "targets": [
+            [
+              "id=base-ui-_R_r96itmlb_",
+              "id"
+            ],
+            [
+              "css=[data-base-ui-click-trigger]",
+              "css:data-attr"
+            ],
+            [
+              "css=#base-ui-_R_r96itmlb_",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='base-ui-_R_r96itmlb_'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'Đăng nhập')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=email",
+          "value": "admin@vinanews.vn",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "10639dad-6b13-4386-9b22-be9b452896f5",
+          "targets": [
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(1) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6b28a193-446f-48fd-9caf-706b7be94bf4",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f12d6ac8-9ef5-47cc-a730-7d9db47cc555",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "admin@vinanews",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fcf76792-7754-4f7e-918f-54452cd7fa05",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.space-y-2:nth-child(2) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.hover\\3A bg-red-600",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c00a189e-5d01-4acb-aaa7-2a07f2990541",
+          "targets": [
+            [
+              "css=.hover\\3A bg-red-600",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Đăng nhập ngay'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='_R_396itmlb_']/div/div/div/form/button)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a3bcacb5-e737-4607-a2fc-7839af0d3dfe",
+      "name": "like_post",
+      "commands": [
+        {
+          "id": "4f2a11e4-d22c-44dc-a4ce-62571c766759",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=.lg\\3A col-span-5 > .flex > .group:nth-child(1) .text-\\[15px\\]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dac50b32-fd81-4a88-848e-6e988e8451e9",
+          "targets": [
+            [
+              "css=.lg\\3A col-span-5 > .flex > .group:nth-child(1) .text-\\[15px\\]",
+              "css:finder"
+            ],
+            [
+              "xpath=//h4[contains(.,'Đi giày cao gót lâu ngày có gây suy giãn tĩnh mạch?')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.h-7:nth-child(1)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c915dc34-a0ed-4fb6-b210-bd6d8dba12ee",
+          "targets": [
+            [
+              "css=.h-7:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[contains(.,'0')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e9f53c5-9dfe-4e1a-8370-f4266b3198ac",
+      "name": "unlike_post",
+      "commands": [
+        {
+          "id": "20f98708-3155-4a9d-b219-769a7a5b346c",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=.lg\\3A col-span-5 > .flex > .group:nth-child(1) .text-\\[15px\\]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e8e30be2-1c5f-48a3-9bf1-5a7b2618e3ec",
+          "targets": [
+            [
+              "css=.lg\\3A col-span-5 > .flex > .group:nth-child(1) .text-\\[15px\\]",
+              "css:finder"
+            ],
+            [
+              "xpath=//h4[contains(.,'Đi giày cao gót lâu ngày có gây suy giãn tĩnh mạch?')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.hover\\3Atext-red-700",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d67928a9-a943-4dbc-958d-a8248cb09e03",
+          "targets": [
+            [
+              "css=.hover\\3Atext-red-700",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[contains(.,'1')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
